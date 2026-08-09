@@ -7,7 +7,7 @@ display the predicted emotion with a confidence bar chart.
 Usage:
   streamlit run src/app.py
 """
-
+import numpy 
 import cv2
 import numpy as np
 import streamlit as st
