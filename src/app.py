@@ -53,7 +53,7 @@ def main():
         image = Image.open(uploaded_file).convert("RGB")
         img_array = np.array(image)
 
-        st.image(image, caption="Uploaded image", use_column_width=True)
+        st.image(image, caption="Uploaded image", use_container_width=True)
 
         face_cascade = cv2.CascadeClassifier(FACE_CASCADE_PATH)
         gray = cv2.cvtColor(img_array, cv2.COLOR_RGB2GRAY)
