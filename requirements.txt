@@ -1,5 +1,5 @@
 tensorflow>=2.15.0
-opencv-python-headless
+opencv-python-headless==4.10.0.84
 numpy>=1.26.0
 pandas>=2.1.0
 matplotlib>=3.8.0
