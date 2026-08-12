@@ -39,7 +39,7 @@ def preprocess_face(face_img, img_size, color_mode):
 
 def main():
     st.set_page_config(page_title="DeepFER", page_icon="🙂", layout="centered")
-    st.title("DeepFER: Facial Emotion Recognition")
+    st.title("DeepFER: Facial Emotion Recognition...Fahad")
     st.caption("Upload a photo to detect the facial emotion using a  Model CNN / Transfer Learning model.")
 
     model_path = st.sidebar.text_input("Model path", value="models/best_model.keras")
